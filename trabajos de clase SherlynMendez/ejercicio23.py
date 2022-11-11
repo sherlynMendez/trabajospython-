@@ -1,0 +1,7 @@
+rima= input("introduce la primer linea de una rima infantil")
+longitud = len(rima)
+print ("esta frase tiene", longitud, "letras")
+ni= int(input("introduce un numero inicial"))
+nf = int(input("introduce un numero final"))
+parte= (rima[ni:nf])
+print(parte)
